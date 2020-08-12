@@ -13,6 +13,13 @@
 		890810B124CF99E000537921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890810AF24CF99E000537921 /* Main.storyboard */; };
 		890810B324CF99EB00537921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890810B224CF99EB00537921 /* Assets.xcassets */; };
 		890810B624CF99EB00537921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890810B424CF99EB00537921 /* LaunchScreen.storyboard */; };
+		890810C224D0DAC900537921 /* CollectionViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890810C124D0DAC900537921 /* CollectionViewCustomCell.swift */; };
+		890810C624D0DB4200537921 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890810C524D0DB4200537921 /* PhotosVC.swift */; };
+		890810CB24D0E9E500537921 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890810CA24D0E9E500537921 /* Arrays.swift */; };
+		892925EF24DB410400B2C2CE /* FlowersCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892925EE24DB410300B2C2CE /* FlowersCollectionVC.swift */; };
+		892925F124DB412300B2C2CE /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892925F024DB412300B2C2CE /* CustomCollectionViewCell.swift */; };
+		895842BF24DF253E002BE924 /* MyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895842BE24DF253E002BE924 /* MyListTableViewCell.swift */; };
+		89C4B49224DCB51600CB2418 /* MyListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4B49124DCB51600CB2418 /* MyListTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		890810B224CF99EB00537921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		890810B524CF99EB00537921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		890810B724CF99EB00537921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890810C124D0DAC900537921 /* CollectionViewCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomCell.swift; sourceTree = "<group>"; };
+		890810C524D0DB4200537921 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		890810CA24D0E9E500537921 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		892925EE24DB410300B2C2CE /* FlowersCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersCollectionVC.swift; sourceTree = "<group>"; };
+		892925F024DB412300B2C2CE /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		895842BE24DF253E002BE924 /* MyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListTableViewCell.swift; sourceTree = "<group>"; };
+		89C4B49124DCB51600CB2418 /* MyListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 		890810A824CF99E000537921 /* essential Oils Project */ = {
 			isa = PBXGroup;
 			children = (
+				890810C724D0E9BB00537921 /* Models */,
+				890810BD24D0DA1000537921 /* VCs */,
 				890810A924CF99E000537921 /* AppDelegate.swift */,
 				890810AB24CF99E000537921 /* SceneDelegate.swift */,
 				890810AD24CF99E000537921 /* ViewController.swift */,
@@ -65,6 +81,51 @@
 				890810B724CF99EB00537921 /* Info.plist */,
 			);
 			path = "essential Oils Project";
+			sourceTree = "<group>";
+		};
+		890810BD24D0DA1000537921 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				89C4B48E24DCB49900CB2418 /* My List */,
+				892925ED24DB40DD00B2C2CE /* FirstPage */,
+				890810C024D0DA9800537921 /* Home */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		890810C024D0DA9800537921 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				890810C124D0DAC900537921 /* CollectionViewCustomCell.swift */,
+				890810C524D0DB4200537921 /* PhotosVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		890810C724D0E9BB00537921 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				890810CA24D0E9E500537921 /* Arrays.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		892925ED24DB40DD00B2C2CE /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				892925EE24DB410300B2C2CE /* FlowersCollectionVC.swift */,
+				892925F024DB412300B2C2CE /* CustomCollectionViewCell.swift */,
+			);
+			path = FirstPage;
+			sourceTree = "<group>";
+		};
+		89C4B48E24DCB49900CB2418 /* My List */ = {
+			isa = PBXGroup;
+			children = (
+				89C4B49124DCB51600CB2418 /* MyListTableVC.swift */,
+				895842BE24DF253E002BE924 /* MyListTableViewCell.swift */,
+			);
+			path = "My List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +200,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				890810AE24CF99E000537921 /* ViewController.swift in Sources */,
+				890810CB24D0E9E500537921 /* Arrays.swift in Sources */,
 				890810AA24CF99E000537921 /* AppDelegate.swift in Sources */,
+				895842BF24DF253E002BE924 /* MyListTableViewCell.swift in Sources */,
+				892925F124DB412300B2C2CE /* CustomCollectionViewCell.swift in Sources */,
 				890810AC24CF99E000537921 /* SceneDelegate.swift in Sources */,
+				890810C224D0DAC900537921 /* CollectionViewCustomCell.swift in Sources */,
+				89C4B49224DCB51600CB2418 /* MyListTableVC.swift in Sources */,
+				890810C624D0DB4200537921 /* PhotosVC.swift in Sources */,
+				892925EF24DB410400B2C2CE /* FlowersCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
